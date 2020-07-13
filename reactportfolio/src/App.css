@@ -28,16 +28,21 @@
     #0cebeb
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.profile-picture {
+.profile-img {
   height: 250px;
   padding-top: 5em;
 }
-.banner-text h1 {
+.banner-text {
   background-color: black;
   opacity: 0.8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
+}
+.banner-text h1 {
+  color: white;
+  font-size: 66px;
+  font-weight: bold;
 }
 .banner-text hr {
   border-top: 5px dotted white;
@@ -48,4 +53,20 @@
   color: white;
   font-size: 20px;
   padding: 1em;
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+h1,
+p,
+i {
+  text-align: center;
 }
