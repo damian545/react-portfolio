@@ -28,19 +28,22 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png) center / cover",
+                background: "url() center / cover",
               }}
             ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              This is a fitness tracker app, that tracks your exercise types and
+              progress to getting fit. It has a graph, showing your results of
+              what exercises you have done.
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>LiveDemo</Button>
+              <Button
+                colored
+                target="_blank"
+                href="https://damian545.github.io/fitnesstracker/"
+              >
+                Github
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -56,19 +59,22 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png) center / cover",
+                background: "url() center / cover",
               }}
             ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              This is my Updated Portfolio Page number 2, show off my extra
+              skills that I have learnt during bootcamp coding. Creativity is
+              the key here as well as using all the new languages.
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>LiveDemo</Button>
+              <Button
+                colored
+                target="_blank"
+                href="https://damian545.github.io/updatedportfoliopage2/"
+              >
+                Github
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -84,19 +90,21 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://usefulangle.com/img/thumb/nodejs.png) center / cover",
+                background: "url() center / cover",
               }}
             ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              This is a random password generator, this alows the user to
+              generate up to 20 character password.
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>LiveDemo</Button>
+              <Button
+                colored
+                target="_blank"
+                href="https://damian545.github.io/homework3/"
+              >
+                Github
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -112,19 +120,23 @@ class Projects extends Component {
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://blog-assets.spot.io/app/uploads/2017/07/17202136/MongoDB-1440x728.jpg) center / cover",
+                background: "url() center / cover",
               }}
             ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              This is a Day Planner, 9am to 5pm work day, past, present and
+              future color indicator triggered by the date and time. The user
+              can add and delete things to do.
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>LiveDemo</Button>
+              <Button
+                colored
+                a
+                target="_blank"
+                href="https://damian545.github.io/dayPlanner/"
+              >
+                Github
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -143,10 +155,10 @@ class Projects extends Component {
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>React</Tab>
-          <Tab>HTML</Tab>
-          <Tab>NodeJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>Fitness Tracker</Tab>
+          <Tab>Updated Portfolio Page2</Tab>
+          <Tab>Password Generator</Tab>
+          <Tab>Day Planner</Tab>
         </Tabs>
 
         <Grid className="projects-grid">

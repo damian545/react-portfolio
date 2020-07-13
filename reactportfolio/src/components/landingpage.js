@@ -8,22 +8,23 @@ class Landing extends Component {
         <Grid className="Landing-grid">
           <Cell col={12}>
             <img
-              src="https://attachment.outlook.live.net/owa/MSA%3ADAM180%40hotmail.com/service.svc/s/GetAttachmentThumbnail?id=AQMkADAwATZiZmYAZC05ZmFiLWI1ZjMtMDACLTAwCgBGAAADxeHU0ki%2BMEqWo4RJgW6WYgcA2emy4VqqikCQtSnD4NJvcgAAAgEMAAAA2emy4VqqikCQtSnD4NJvcgAD0h1QHQAAAAESABAAzaL9KU6v4EmPSIk7P8ix8Q%3D%3D&thumbnailType=2&owa=outlook.live.com&scriptVer=2020060802.13.01&isc=1&X-OWA-CANARY=e-8bIgYwfEK7G1H-XLmR-OCh0DhtE9gY91NwBrJlMs5Yxo4Zkj7iqfQhcNRm4XMq1ZX8r2Mkvcc.&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkiLCJ0eXAiOiJKV1QifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2subGl2ZS5jb20iLCJ1YyI6IjA1M2Y2ZGQ5NzEwYjQzMjFiY2UwN2ExMGI4MjE2MWNkIiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEA4NGRmOWU3Zi1lOWY2LTQwYWYtYjQzNS1hYWFhYWFhYWFhYWEiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInByaW1hcnlzaWRcIjpcIlMtMS0yODI3LTQ0MjM2NS0yNjc4ODMwNTc5XCIsXCJwdWlkXCI6XCIxODk5OTQ1ODg2NzI1NjE5XCIsXCJvaWRcIjpcIjAwMDZiZmZkLTlmYWItYjVmMy0wMDAwLTAwMDAwMDAwMDAwMFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCJ9IiwibmJmIjoxNTkyNDczODgxLCJleHAiOjE1OTI0NzQ0ODEsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEA4NGRmOWU3Zi1lOWY2LTQwYWYtYjQzNS1hYWFhYWFhYWFhYWEiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudC5vdXRsb29rLmxpdmUubmV0QDg0ZGY5ZTdmLWU5ZjYtNDBhZi1iNDM1LWFhYWFhYWFhYWFhYSIsImhhcHAiOiJvd2EifQ.AHzpcpYy-QlcbVQAUMXvGtbIbko0e5ZcJcH82Sm7iu2_856Pm-D4ayr82KirR212d28Kbfsk5RCnXOU5OVmgS4sEA_j-qkubVFcj3KibZki9LT_jzVR54KypVm8E1h5lHfFeZGpllV_Lco9YXy2wEo0ZtHixM8rozN6aLnfiC2L6201qmEW2I12SJOstoHE5gR6nPl_7uayJejYXQoos6A-j0eJq-3WuCbsefcD9giot59t1V6cuy389tOoHgjZeqv4MyOJAd7CWzh7Wn-QWVHq3TxrU7raSeVpGnvT_1EjI-aZs2s6H336pvqSR2GWKgrdWi_ZSV7YCd_H9fa62GQ&animation=true"
-              alt="profile-img"
-              className="profile-img"
+              src="https://attachment.outlook.live.net/owa/MSA%3ADAM180%40hotmail.com/service.svc/s/GetAttachmentThumbnail?id=AQMkADAwATZiZmYAZC05ZmFiLWI1ZjMtMDACLTAwCgBGAAADxeHU0ki%2BMEqWo4RJgW6WYgcA2emy4VqqikCQtSnD4NJvcgAAAgEMAAAA2emy4VqqikCQtSnD4NJvcgAD604osgAAAAESABAAmKAFC0R7d0CRsbZmAfjkdA%3D%3D&thumbnailType=2&owa=outlook.live.com&scriptVer=2020061402.02&isc=1&X-OWA-CANARY=OCcQDeVQWUiI4QPKOjnD1dCCKbsHGNgY79fID403W3Us7I2HubHB21UlVXi8_rYWNKpQLMUS8C0.&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkiLCJ0eXAiOiJKV1QifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2subGl2ZS5jb20iLCJ1YyI6IjkwMDU3OTdiZTZhMTQyMjFhOTFhMzE4ZWVlOTRiMjc3IiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEA4NGRmOWU3Zi1lOWY2LTQwYWYtYjQzNS1hYWFhYWFhYWFhYWEiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInByaW1hcnlzaWRcIjpcIlMtMS0yODI3LTQ0MjM2NS0yNjc4ODMwNTc5XCIsXCJwdWlkXCI6XCIxODk5OTQ1ODg2NzI1NjE5XCIsXCJvaWRcIjpcIjAwMDZiZmZkLTlmYWItYjVmMy0wMDAwLTAwMDAwMDAwMDAwMFwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCJ9IiwibmJmIjoxNTkyOTgwMDY4LCJleHAiOjE1OTI5ODA2NjgsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEA4NGRmOWU3Zi1lOWY2LTQwYWYtYjQzNS1hYWFhYWFhYWFhYWEiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudC5vdXRsb29rLmxpdmUubmV0QDg0ZGY5ZTdmLWU5ZjYtNDBhZi1iNDM1LWFhYWFhYWFhYWFhYSIsImhhcHAiOiJvd2EifQ.XrZgXvr8nWAdlt_kJ1-NfA-moDsDfh8oXIjgeL68wM7DV1-pt7D2J-lluI_QPUqR91dzeB_6aolPvyP_0W0wdEKtpWoOBSPYeEiTFvghg3y3-lbg52mf33bN2KuphsFDqg3_q8CAk4HLnJ0GE3YLDac1K1ijbitNIfu0JkdEg70c8NhNhl6JJZrd1QsWyYOpp7ZsVxZQJlqrTuJph72eW4gLoWE4KGLYdKazqSvQDCFVdRPoYtRY4bOPAXULhAtPPYyEujgiLEa4-geDUFPx_hUMC5kO2dviugJ9vwhZqn6C8ES9TDruptZWqysddttq2KALmhyIk29jYuKORTPAWw&animation=true"
+              alt="avatar"
+              style={{ height: "250px" }}
             />
+
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
               <hr />
 
               <p>
-                HTML/CSS | Bootstrap | JavaScript | React | MongoDB | Node.JS |
-                Express
+                HTML/CSS | Bootstrap | JavaScript | JQuery | MySQL | React |
+                MongoDB | Node.JS | Express
               </p>
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
-                  href="http://google.com"
+                  href="https://au.linkedin.com/in/damian-tapp-584b56198"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -31,7 +32,7 @@ class Landing extends Component {
                 </a>
                 {/* Github */}
                 <a
-                  href="http://google.com"
+                  href="https://github.com/damian545"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
