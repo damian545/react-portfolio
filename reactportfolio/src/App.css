@@ -28,6 +28,11 @@
     #0cebeb
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.resume-right-col {
+  background: #27221f;
+  color: white;
+  padding: 2em;
+}
 .contact-body {
   margin: auto;
   position: fixed;

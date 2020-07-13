@@ -30,7 +30,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
-                    0402 505 505
+                    0402 123 456
                   </ListItemContent>
                 </ListItem>
 
@@ -39,7 +39,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-fax" aria-hidden="true" />
-                    0402 505 505
+                    0402 123 456
                   </ListItemContent>
                 </ListItem>
 

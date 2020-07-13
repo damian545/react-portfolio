@@ -7,7 +7,14 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <Layout>
-      <Header className="header-color" title={<Link to="/">Damian Tapp</Link>}>
+      <Header
+        className="header-color"
+        title={
+          <Link style={{ textDecoration: "none", color: "white" }} to="/">
+            My Portfolio
+          </Link>
+        }
+      >
         <Navigation>
           <Link to="/resume">Resume</Link>
           <Link to="/aboutme">AboutMe</Link>
@@ -15,7 +22,13 @@ function App() {
           <Link to="/contact">Contact</Link>
         </Navigation>
       </Header>
-      <Drawer title="Title">
+      <Drawer
+        title={
+          <Link style={{ textDecoration: "none", color: "black" }} to="/">
+            My Portfolio
+          </Link>
+        }
+      >
         <Navigation>
           <Link to="/resume">Resume</Link>
           <Link to="/aboutme">AboutMe</Link>
