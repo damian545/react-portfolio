@@ -27,6 +27,7 @@
     #20e3b2,
     #0cebeb
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
 }
 .resume-right-col {
   background: #27221f;
@@ -119,14 +120,7 @@
   font-size: 5em;
   padding: 8px;
 }
-h1,
-p,
-i {
-  text-align: center;
-}
+
 h2 {
   color: orange;
-}
-h5 {
-  color: blue;
 }

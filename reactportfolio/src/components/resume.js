@@ -8,7 +8,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <Grid>
+        <Grid className="landing-grid">
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <h3 style={{ paddingTop: "2em" }}>Damian Tapp</h3>
