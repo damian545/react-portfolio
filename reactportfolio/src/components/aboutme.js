@@ -13,7 +13,7 @@ class About extends Component {
               completed a lot of things for the first time during this course,
               many of which I am very proud of. Seeing as I have only started to
               use code for the first time at the end of 2019 leading up to this
-              course. I am a very hard working person, I love finding out how
+              course. I am a very hard working person and I love finding out how
               things work, whether it is during Uni or with the hobbies that I
               do. I really want to change my job into a career. I have been
               working hard to learn what it takes to be a web designer, so I can
@@ -22,8 +22,10 @@ class About extends Component {
               I want be a part of it. After spending 27 years in one job with
               little to no achievements, has effected me some what. I would love
               to be in an industry that has achievements and something to be
-              proud of at the end of the day. I love to create, this is why I
-              have so many hobbies and why I should be a programmer.
+              proud of at the end of the day. About 6 years ago, when I was
+              heavily into skateboarding. I did a lot of filming and film
+              editing, I love to create. This is why I have so many hobbies and
+              why I should be a programmer.
             </p>
           </Cell>
         </Grid>
