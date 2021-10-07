@@ -167,8 +167,9 @@ class Projects extends Component {
         <Grid className="projects-grid">
           <Cell col={12}>
             <div className="content">{this.toggleCategories()}</div>
-          </Cell>
-        </Grid>
+          </Cell>          
+        </Grid>        
+        <footer style={{color:"red"}}>An Original Website Created By Damian Tapp</footer>
       </div>
     );
   }

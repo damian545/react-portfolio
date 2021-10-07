@@ -13,8 +13,8 @@ class Landing extends Component {
               style={{ height: "350px" }}
             />
 
-            <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+            <div className="banner-text">              
+              <h1 style={{fontSize:"80px", fontFamily: "Anton"}}><span class="blink">Full Stack Web Developer</span></h1>
               <hr />
 
               <p>
@@ -41,6 +41,7 @@ class Landing extends Component {
               </div>
             </div>
           </Cell>
+          <footer style={{color:"red"}}>An Original Website Created By Damian Tapp</footer>
         </Grid>
       </div>
     );

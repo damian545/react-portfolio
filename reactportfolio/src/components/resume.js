@@ -11,25 +11,27 @@ class Resume extends Component {
         <Grid className="landing-grid">
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <h3 style={{ paddingTop: "2em" }}>Damian Tapp</h3>
+              <h3 style={{ paddingTop: "2em", fontSize: "60px", fontFamily: "Anton", textShadow: "3px 3px 5px white"  }}>Damian Tapp</h3>
+              <br/>
+              <br/>
               <img
                 src="/images/damiantapp.jpg"
                 alt="profile image"
-                style={{ height: "350px" }}
+                style={{ height: "450px" }}
               />
             </div>
 
             <h4 style={{ color: "grey" }}>Programmer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             <p>
               Hello, my name is Damian Tapp. I am 46 years old and looking to
               change my current job from a Factory Worker to a Web Developer.
               Learning coding for the first time has been exciting and scary all
-              at the same time. But I am really enjoying it, I have learnt a lot
+              at the same time. But I am really enjoying it, I have learnt a lot of
               things to do with computing languages and I have completed many
               activities.
             </p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50px" }} />
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
             <h5>Address</h5>
             <p>1 Hacker Way Menlo Park, 94025</p>
             <h5>Phone</h5>
@@ -38,10 +40,10 @@ class Resume extends Component {
             <p>someone@example.com</p>
             <h5>Web</h5>
             <p>damiantapp.com</p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50px" }} />
+            <hr style={{ borderTop: "3px solid #833fb2", width: "100%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
+            <h2 style={{ fontSize: "60px", fontFamily: "Anton", textShadow: "3px 3px 5px black" }}>Education</h2>
 
             <Education
               startYear={1987}
@@ -57,7 +59,7 @@ class Resume extends Component {
               schoolDiscription="Completed a 6 month course in web development, called a coding bootcamp."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Experience</h2>
+            <h2  style={{ fontSize: "60px", fontFamily: "Anton", textShadow: "3px 3px 5px black" }}>Experience</h2>
             <Experience
               startYear={1993}
               endYear={2020}
@@ -65,7 +67,7 @@ class Resume extends Component {
               jobDiscription="Currently working as a Forklift operator, Crane operator and Tubemill operator"
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Language Skills</h2>
+            <h2  style={{ fontSize: "60px", fontFamily: "Anton", textShadow: "3px 3px 5px black" }}>Language Skills</h2>
             <Skills skill="JAVASCRIPT" progress={60} />
             <br />
             <Skills skill="HTML/CSS" progress={100} />
@@ -82,6 +84,7 @@ class Resume extends Component {
             <br />
             <Skills skill="EXPRESS" progress={25} />
           </Cell>
+          <footer style={{color:"red"}}>An Original Website Created By Damian Tapp</footer>
         </Grid>
       </div>
     );

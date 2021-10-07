@@ -7,19 +7,19 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Damian Tapp</h2>
+            <h2 style={{ fontSize: "45px", fontFamily: "Anton", textShadow: "3px 3px 5px black"  }}>Damian Tapp</h2>
             <img
               src="/images/damiantapp.jpg"
               alt="profile picture"
               style={{ height: "280px" }}
             />
-            <p style={{ width: "80%", margin: "auto", paddingTop: "1em" }}>
-              If you want to get in contact with me, shoot me an email or give
+            <p style={{ width: "80%", margin: "auto", paddingTop: "1em", fontSize:"20px" }}>
+              If you want to get in contact with me, throw me an email or give
               me a call and we can chat about what we can do.
             </p>
           </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
+            <h2 style={{ fontSize: "40px", fontFamily: "Anton", textShadow: "3px 3px 5px black" }}>Contact Me</h2>
             <hr />
             <div className="contact-list">
               <List>
@@ -27,23 +27,25 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-phone-square" aria-hidden="true" />
+                    <i className="fa fa-phone-square" aria-hidden="true" style={{color: "blue",textShadow: "3px 3px 5px black"  }} />
                     0402 123 456
                   </ListItemContent>
                 </ListItem>
-
+<hr style={{ width:"95%"}}/>
                 <ListItem>
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-envelope" aria-hidden="true" />
+                    <i className="fa fa-envelope" aria-hidden="true" style={{color: "blue", textShadow: "3px 3px 5px black" }}/>
                     someone@example.com
-                  </ListItemContent>
-                </ListItem>
+                  </ListItemContent>                  
+                </ListItem>                
               </List>
+              <hr/>
             </div>
-          </Cell>
+          </Cell>          
         </Grid>
+        <footer style={{color:"red"}}>An Original Website Created By Damian Tapp</footer>
       </div>
     );
   }

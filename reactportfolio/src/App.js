@@ -10,16 +10,16 @@ function App() {
       <Header
         className="header-color"
         title={
-          <Link style={{ textDecoration: "none", color: "white" }} to="/">
-            My Portfolio
+          <Link style={{ textDecoration: "none", fontSize: "30px", fontFamily: "Anton", color: "teal" }} to="/">
+            MY PORTFOLIO
           </Link>
         }
       >
         <Navigation>
-          <Link to="/resume">Resume</Link>
-          <Link to="/aboutme">AboutMe</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact</Link>
+          <Link style={{ textDecoration: "none", fontSize: "30px", fontFamily: "Anton", color: "teal" }} to="/resume">Resume</Link>
+          <Link style={{ textDecoration: "none", fontSize: "30px", fontFamily: "Anton", color: "teal" }} to="/aboutme">AboutMe</Link>
+          <Link style={{ textDecoration: "none", fontSize: "30px", fontFamily: "Anton", color: "teal" }} to="/projects">Projects</Link>
+          <Link style={{ textDecoration: "none", fontSize: "30px", fontFamily: "Anton", color: "teal" }} to="/contact">Contact</Link>
         </Navigation>
       </Header>
       <Drawer

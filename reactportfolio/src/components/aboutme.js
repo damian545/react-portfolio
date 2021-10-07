@@ -27,8 +27,9 @@ class About extends Component {
               editing, I love to create. This is why I have so many hobbies and
               why I should be a programmer.
             </p>
-          </Cell>
+          </Cell>          
         </Grid>
+        <footer style={{color:"red"}}>An Original Website Created By Damian Tapp</footer>
       </div>
     );
   }
